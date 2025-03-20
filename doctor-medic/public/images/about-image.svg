@@ -1,0 +1,26 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="400" fill="#f8f9fa" />
+  
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="180" fill="#4dabf7" opacity="0.2" />
+  
+  <!-- Head -->
+  <circle cx="200" cy="180" r="100" fill="#f8f9fa" stroke="#343a40" stroke-width="2" />
+  
+  <!-- Face features -->
+  <circle cx="170" cy="150" r="8" fill="#343a40" />
+  <circle cx="230" cy="150" r="8" fill="#343a40" />
+  <path d="M170,220 Q200,250 230,220" fill="none" stroke="#343a40" stroke-width="3" />
+  
+  <!-- Hair -->
+  <path d="M100,180 Q120,80 200,80 Q280,80 300,180" fill="#343a40" />
+  
+  <!-- Shoulders -->
+  <path d="M100,300 Q200,340 300,300" fill="#4dabf7" />
+  
+  <!-- Dental coat -->
+  <path d="M140,280 L140,350 Q200,380 260,350 L260,280" fill="#f8f9fa" stroke="#343a40" stroke-width="2" />
+  
+  <!-- Text label -->
+  <text x="130" y="380" font-family="Arial" font-size="18" fill="#343a40">Dr. Paula Cheslerean</text>
+</svg> 
