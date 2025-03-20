@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches: [ main ]  # Change to your default branch name if different
-  workflow_dispatch:  # Allows manual triggering
+  workflow_dispatch: {}  # Allows manual triggering
 
 jobs:
   build-and-deploy:
